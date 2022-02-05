@@ -1,0 +1,37 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Alyssa Samulde</title>
+	<link rel="stylesheet" href="mainstyle.css">
+</head>
+<body>
+<div class="btn1">
+							<a href="mainpage.html"><button type="button">GO HOME</button></a>
+						</div>
+
+<div class="full-img" id="fullimgBox">
+	<img src="1.jpg" id="fullimg">
+	<span onclick="closeFullImg()">x</span>
+</div><br>
+<h5>GALLERY</h5>
+	<div class="img-gallery" onclick="openFullImg()">
+		<img src="1.jpg" onclick="openFullImg()">
+		<img src="2.jpg" onclick="openFullImg()">
+		<img src="3.jpg" onclick="openFullImg()">
+		<img src="4.jpg" onclick="openFullImg()">
+		<img src="5.jpg" onclick="openFullImg()">
+		<img src="6.jpg" onclick="openFullImg()">
+	</div>
+	
+<script>
+
+var fullImgBox = document.getElementById("fullImgBox");
+var fullImg = document.getElementById("fullImg");
+
+function openFullImg(){
+	fullImgBox.style.display = "flex";
+}
+
+
+</body>
+</html>

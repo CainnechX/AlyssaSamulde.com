@@ -1,0 +1,26 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Alyssa Samulde</title>
+	<link rel="stylesheet" href="mainstyle.css">
+</head>
+<body>
+<div class="btn1">
+							<a href="mainpage.html"><button type="button">GO HOME</button></a>
+						</div>
+
+<h5>ABOUT</h5>
+
+<div class="cont">
+	<img src="aboutme.jpg">
+</div><br><br><br><br><br>
+<div class="text2">
+	<h6>Alyssa Samulde</h6><br><br>
+	<h4>TVL - HE<br>
+	Leo<br>21 years old<br>July 28, 2000<br>Study at Lico de Cagayan University
+	</h4>
+
+</div>
+
+</body>
+</html>
